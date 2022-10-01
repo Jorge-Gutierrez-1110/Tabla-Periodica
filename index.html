@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla Periodica</title>
+    
+    <link rel="stylesheet" href="css/style2.css"/>
+    <link rel="stylesheet" href="css/fondo.css"/>
+    <link rel="shortcut icon" href="img/H2.jpg">
+    <script src="js/Script.js"></script>
+    <script src="js/Most-Ocult.js"></script>
+    <script src="js/top.js"></script>
+    <script src="js/select.js"></script>
+
+</head>
+<body>
+    
+    <!--menu nuevo-->
+    <div class="menu-tab">
+        <header>
+            <div class="logo">
+                <img src="img/H2.jpg">
+                <h2 class="nombre-pag">Tabla periodica</h2>
+            </div>
+            <nav>
+                <a href="index.html" class="nav-link">Inicio</a>
+                <a href="Ev-Tab.html" class="nav-link">Evolucion de la tabla periodica</a>
+            </nav>
+        </header>
+    </div>
+
+    <!--menu desplegable-->
+    <!--
+    <div>
+    <nav>
+        <ul class="men-hor">
+            <img class="logo" src="img/Komisan-404.jpg">
+            <h2 class="titulo-menu">Tabla Periodica</h2>
+            <li><a href="Principal2.html">Inicio</a></li>
+            <li>
+                <a href="404.html">Error-404</a>
+            </li>
+            <li>
+                <a href="Ev-Tab.html">Evolucion de la tabla periodica</a>
+            </li>
+            <li><a href="Index.html">Salir</a></li>
+        </ul>
+    </nav>   
+    </div>
+    -->
+
+        <!--Empieza Tabla Periodica-->
+        <center>
+            <div class="tabla" >
+                <!--fila 1-->
+                <div class="boxtab" >
+                    <div id="r" class="verdeL" onclick="Ele1()">
+                        1 <br> <h3 class="r" >H</h3>Hidrógeno <br> 1,008
+                    </div>
+                    <div class="transp4">
+                        
+                    </div>
+                    <!--
+                        <div class="griso" onclick="ocultar5()">
+                        <br> No <br> Metal
+                        </div>
+                    -->
+
+                    <!--En todo caso de que se requiera borrar el boton de la tabla completa y utilizar el onmouseover utilizar: onmouseout="funcion()"-->
+
+                    <div id="most-ocul" class="griso" onclick="ocultar6()">
+                        <br> Gases <br> Nobles
+                    </div>
+                    <div id="most-ocul1" class="griso" onclick="ocultar7()">
+                        <br> No <br> Metales
+                    </div>
+                    <div class="transp10">
+                    
+                    </div>
+                    <div id="r1" class="morado" onclick="Ele2()">
+                        2 <br> <h3 class="r">He</h3>Helio <br> 4,0026
+                    </div>
+                </div>
+
+                <!--fila 2-->
+                <div class="boxtab" >
+                    <div id="b" class="naranja" onclick="Ele3()">
+                        3<br> <h3 class="b">Li</h3>Litio <br> 6,94
+                    </div>
+                    <div id="b1" class="amarillo" onclick="Ele4()">
+                        4<br> <h3 class="b">Be</h3>Berilio  <br> 9,0122
+                    </div>
+                    <div class="transp2">
+
+                    </div>
+                    <div id="most-ocul2" class="griso" onclick="ocultar()">
+                        <br> <br> Solidos <br> <br>
+                    </div>
+                    <div id="most-ocul3" class="griso" onclick="ocultar1()">
+                        <br> <br> Liquidos <br> <br>
+                    </div>
+                    <div id="most-ocul4" class="griso" onclick="ocultar2()">
+                        <br> <br> Gases <br> <br>
+                    </div>
+                    <div id="most-ocul5" class="griso" onclick="ocultar3()">
+                        <br> <br> Desconocido <br> <br>
+                    </div>
+                    <div class="griso" onclick="ocultar4()">
+                        <br> Tabla <br> Completa
+                    </div>
+                    <div class="transp3">
+
+                    </div>
+                    <div id="b2" class="turquesa" onclick="Ele5()">
+                        5<br> <h3 class="b">B</h3>Boro <br> 10,81
+                    </div>
+                    <div id="b3" class="verde" onclick="Ele6()">
+                        6<br> <h3 class="b">C</h3>Carbono <br> 12,011
+                    </div>
+                    <div id="r2" class="verde" onclick="Ele7()">
+                        7<br> <h3 class="r">N</h3>Nitrógeno <br> 14,007
+                    </div>
+                    <div id="r3" class="verde" onclick="Ele8()">
+                        8<br> <h3 class="r">O</h3>Oxígeno <br> 15,999
+                    </div>
+                    <div id="r4" class="verde" onclick="Ele9()">
+                        9<br> <h3 class="r">F</h3>Flúor <br> 18,998
+                    </div>
+                    <div id="r5" class="morado" onclick="Ele10()">
+                        10<br> <h3 class="r">Ne</h3>Neón <br> 20,180
+                    </div>
+                </div>
+
+                <!--fila 3-->
+                <div class="boxtab" >
+                    <div id="b4" class="naranja" onclick="Ele11()">
+                        11<br> <h3 class="b">Na</h3>Sodio <br> 22,990
+                    </div>
+                    <div id="b5" class="amarillo" onclick="Ele12()">
+                        12<br> <h3 class="b">Mg</h3>Magnesio <br> 24,305
+                    </div>
+                    <div class="transp10">
+                        
+                    </div>
+                    <div id="b6" class="azul" onclick="Ele13()">
+                        13<br> <h3 class="b">Al</h3>Aluminio <br> 26,982
+                    </div>
+                    <div id="b7" class="turquesa" onclick="Ele14()">
+                        14<br> <h3 class="b">Si</h3>Silicio <br> 28,085
+                    </div>
+                    <div id="b8" class="verde" onclick="Ele15()">
+                        15<br> <h3 class="b">P</h3>Fósforo <br> 30,974
+                    </div>
+                    <div id="b9" class="verde" onclick="Ele16()">
+                        16<br> <h3 class="b">S</h3>Azufre <br> 32,06
+                    </div>
+                    <div id="r6" class="verde" onclick="Ele17()">
+                        17<br> <h3 class="r">Cl</h3> Cloro <br> 35,45
+                    </div>
+                    <div id="r7" class="morado" onclick="Ele18()">
+                        18<br> <h3 class="r">Ar</h3> Argón <br> 39,948
+                    </div>
+                </div>
+
+                <!--fila 4-->
+                <div class="boxtab" >
+                    <div id="b10" class="naranja" onclick="Ele19()">
+                        19<br> <h3 class="b">K</h3>Potasio <br> 39,098
+                    </div>
+                    <div id="b11" class="amarillo" onclick="Ele20()">
+                        20<br> <h3 class="b">Ca</h3>Calcio <br> 40,078
+                    </div>
+                    <div id="b12" class="rojo" onclick="Ele21()">
+                        21<br> <h3 class="b">Sc</h3>Escandio <br> 44,956
+                    </div>
+                    <div id="b13" class="rojo" onclick="Ele22()">
+                        22<br> <h3 class="b">Ti</h3>Titanio <br> 47,867
+                    </div>
+                    <div id="b14" class="rojo" onclick="Ele23()">
+                        23<br> <h3 class="b">V</h3>Vanadio <br> 50,942
+                    </div>
+                    <div id="b15" class="rojo" onclick="Ele24()">
+                        24<br> <h3 class="b">Cr</h3>Cromo <br> 51,996
+                    </div>
+                    <div id="b16" class="rojo" onclick="Ele25()">
+                        25<br> <h3 class="b">Mn</h3>Manganeso<br> 54,938
+                    </div>
+                    <div id="b17" class="rojo" onclick="Ele26()">
+                        26<br> <h3 class="b">Fe</h3>Hierro <br> 55,845
+                    </div>
+                    <div id="b18" class="rojo" onclick="Ele27()">
+                        27<br> <h3 class="b">Co</h3>Cobalto <br> 58,933
+                    </div>
+                    <div id="b19" class="rojo" onclick="Ele28()">
+                        28<br> <h3 class="b">Ni</h3>Níquel <br> 58,693
+                    </div>
+                    <div id="b20" class="rojo" onclick="Ele29()">
+                        29<br> <h3 class="b">Cu</h3>Cobre <br> 63,546
+                    </div>
+                    <div id="b21" class="rojo" onclick="Ele30()">
+                        30<br> <h3 class="b">Zn</h3>Zinc <br> 65,38
+                    </div>
+                    <div id="b22" class="azul" onclick="Ele31()">
+                        31<br> <h3 class="b">Ga</h3>Galio <br> 69,723
+                    </div>
+                    <div id="b23" class="turquesa" onclick="Ele32()">
+                        32<br> <h3 class="b">Ge</h3>Germanio <br> 72,630
+                    </div>
+                    <div id="b24" class="turquesa" onclick="Ele33()">
+                        33<br> <h3 class="b">As</h3>Arsénico <br> 74,922
+                    </div>
+                    <div id="b25" class="verde" onclick="Ele34()">
+                        34<br> <h3 class="b">Se</h3>Selenio <br> 78,971
+                    </div>
+                    <div id="l" class="verde" onclick="Ele35()">
+                        35<br> <h3 class="l">Br</h3>Bromo <br> 79,904
+                    </div>
+                    <div id="r8" class="morado" onclick="Ele36()">
+                        36<br> <h3 class="r">Kr</h3>Kriptón <br> 83,798
+                    </div>
+                </div>
+
+                <!--fila 5-->
+                <div class="boxtab" >
+                    <div id="b26" class="naranja" onclick="Ele37()">
+                        37<br> <h3 class="b">Rb</h3>Rubidio <br> 85,468
+                    </div>
+                    <div id="b27" class="amarillo" onclick="Ele38()">
+                        38<br> <h3 class="b">Sr</h3>Estroncio <br> 87,62
+                    </div>
+                    <div id="b28" class="rojo" onclick="Ele39()">
+                        39<br> <h3 class="b">Y</h3>Itrio <br> 88,906
+                    </div>
+                    <div id="b29" class="rojo" onclick="Ele40()">
+                        40<br> <h3 class="b">Zr</h3>Circonio <br> 91,224
+                    </div>
+                    <div id="b30" class="rojo" onclick="Ele41()">
+                        41<br> <h3 class="b">Nb</h3>Niobio <br> 92,906
+                    </div>
+                    <div id="b31" class="rojo" onclick="Ele42()">
+                        42<br> <h3 class="b">Mo</h3>Molibdeno <br> 95,95
+                    </div>
+                    <div id="b32" class="rojo" onclick="Ele43()">
+                        43<br> <h3 class="b">Tc</h3>Tecnecio <br> (98)
+                    </div>
+                    <div id="b33" class="rojo" onclick="Ele44()">
+                        44<br> <h3 class="b">Ru</h3>Rutenio <br> 101,07
+                    </div>
+                    <div id="b34" class="rojo" onclick="Ele45()">
+                        45<br> <h3 class="b">Rh</h3>Rodio <br> 102,91
+                    </div>
+                    <div id="b35" class="rojo" onclick="Ele46()">
+                        46<br> <h3 class="b">Pd</h3>Paladio <br> 106,42
+                    </div>
+                    <div id="b36" class="rojo" onclick="Ele47()">
+                        47<br> <h3 class="b">Ag</h3>Plata <br> 107,87
+                    </div>
+                    <div id="b37" class="rojo" onclick="Ele48()">
+                        48<br> <h3 class="b">Cd</h3>Cadmio <br> 112,41
+                    </div>
+                    <div id="b38" class="azul" onclick="Ele49()">
+                        49<br> <h3 class="b">In</h3>Indio <br> 112,82
+                    </div>
+                    <div id="b39" class="azul" onclick="Ele50()">
+                        50<br> <h3 class="b">Sn</h3>Estaño <br> 118,71
+                    </div>
+                    <div id="b40" class="turquesa" onclick="Ele51()">
+                        51<br> <h3 class="b">Sb</h3>Antimonio <br> 121,76
+                    </div>
+                    <div id="b41" class="turquesa" onclick="Ele52()">
+                        52<br> <h3 class="b">Te</h3>Telurio <br> 127,60
+                    </div>
+                    <div id="b42" class="verde" onclick="Ele53()">
+                        53<br> <h3 class="b">I</h3>Yodo <br> 126,90
+                    </div>
+                    <div id="r9" class="morado" onclick="Ele54()">
+                        54<br> <h3 class="r">Xe</h3> Xenón <br> 131,29
+                    </div>
+                </div>
+
+                <!--fila 6-->
+                <div class="boxtab" >
+                    <div id="b43" class="naranja" onclick="Ele55()">
+                        55<br> <h3 class="b">Cs</h3>Cesio <br> 132,91
+                    </div>
+                    <div id="b44" class="amarillo" onclick="Ele56()">
+                        56<br> <h3 class="b">Ba</h3>Bario <br> 137,33
+                    </div>
+                    <div id="Az" class="Az">
+                        <br> <br> 57-71 <br> <br>
+                    </div>
+                    <div id="b45" class="rojo" onclick="Ele72()">
+                        72<br> <h3 class="b">Hf</h3>Hafnio <br> 178,49
+                    </div>
+                    <div id="b46" class="rojo" onclick="Ele73()">
+                        73<br> <h3 class="b">Ta</h3>Tantalio <br> 180,95
+                    </div>
+                    <div id="b47" class="rojo" onclick="Ele74()">
+                        74<br> <h3 class="b">W</h3>Wolframio <br> 183,84
+                    </div>
+                    <div id="b48" class="rojo" onclick="Ele75()">
+                        75<br> <h3 class="b">Re</h3>Renio <br> 186,21
+                    </div>
+                    <div id="b49" class="rojo" onclick="Ele76()">
+                        76<br> <h3 class="b">Os</h3>Osmio <br> 190,23
+                    </div>
+                    <div id="b50" class="rojo" onclick="Ele77()">
+                        77<br> <h3 class="b">Ir</h3>Iridio <br> 192,22
+                    </div>
+                    <div id="b51" class="rojo" onclick="Ele78()">
+                        78<br> <h3 class="b">Pt</h3>Platino <br> 195,08
+                    </div>
+                    <div id="b52" class="rojo" onclick="Ele79()">
+                        79<br> <h3 class="b">Au</h3>Oro <br> 196,97
+                    </div>
+                    <div id="l1" class="rojo" onclick="Ele80()">
+                        80<br> <h3 class="l">Hg</h3> Mercurio <br> 200,59
+                    </div>
+                    <div id="b53" class="azul" onclick="Ele81()">
+                        81<br> <h3 class="b">Tl</h3>Talio <br> 204,38
+                    </div>
+                    <div id="b54" class="azul" onclick="Ele82()">
+                        82<br> <h3 class="b">Pb</h3>Plomo <br> 207,2
+                    </div>
+                    <div id="b55" class="azul" onclick="Ele83()">
+                        83<br> <h3 class="b">Bi</h3>Bismuto <br> 208,98
+                    </div>
+                    <div id="b56" class="azul" onclick="Ele84()">
+                        84<br> <h3 class="b">Po</h3>Polonio <br> (209)
+                    </div>
+                    <div id="b57" class="turquesa" onclick="Ele85()">
+                        85<br> <h3 class="b">At</h3>Ástato <br> (210)
+                    </div>
+                    <div id="r10" class="morado" onclick="Ele86()">
+                        86<br> <h3 class="r">Rn</h3>Radón <br> (222)
+                    </div>
+                </div>
+
+                <!--fila 7-->
+                <div class="boxtab" >
+                    <div id="b58" class="naranja" onclick="Ele87()">
+                        87<br> <h3 class="b">Fr</h3>Francio <br> (223)
+                    </div>
+                    <div id="b59" class="amarillo" onclick="Ele88()">
+                        88<br> <h3 class="b">Ra</h3>Radio <br> (226)
+                    </div>
+                    <div id="Az1" class="Az">
+                        <br> <br> 89-103 <br> <br>
+                    </div>
+                    <div id="g" class="rojo" onclick="Ele104()">
+                        104<br> <h3 class="g">Rf</h3> Rutherfordio <br> (267)
+                    </div>
+                    <div id="g1" class="rojo" onclick="Ele105()">
+                        105<br> <h3 class="g">Db</h3> Dubnio <br> (268)
+                    </div>
+                    <div id="g2" class="rojo" onclick="Ele106()">
+                        106<br> <h3 class="g">Sg</h3> Seaborgio <br> (269)
+                    </div>
+                    <div id="g3" class="rojo" onclick="Ele107()">
+                        107<br> <h3 class="g">Bh</h3> Bohrio <br> (270)
+                    </div>
+                    <div id="g4" class="rojo" onclick="Ele108()">
+                        108<br> <h3 class="g">Hs</h3> Hassio <br> (277)
+                    </div>
+                    <div id="g5" class="gris" onclick="Ele109()">
+                        109<br> <h3 class="g">Mt</h3> Meitnerio <br> (278)
+                    </div>
+                    <div id="g6" class="gris" onclick="Ele110()">
+                        110<br> <h3 class="g">Ds</h3> Darmstatio <br> (281)
+                    </div>
+                    <div id="g7" class="gris" onclick="Ele111()">
+                        111<br> <h3 class="g">Rg</h3> Roentgenio <br> (282)
+                    </div>
+                    <div id="g8" class="gris" onclick="Ele112()">
+                        112<br> <h3 class="g">Cn</h3> Copernico <br> (285)
+                    </div>
+                    <div id="g9" class="gris" onclick="Ele113()">
+                        113<br> <h3 class="g">Nh</h3> Nilhonio <br> (286)
+                    </div>
+                    <div id="g10" class="gris" onclick="Ele114()">
+                        114<br> <h3 class="g">Fl</h3> Flerovio <br> (286)
+                    </div>
+                    <div id="g11" class="gris" onclick="Ele115()">
+                        115<br> <h3 class="g">Mc</h3> Moscovio <br> (290)
+                    </div>
+                    <div id="g12" class="gris" onclick="Ele116()">
+                        116<br> <h3 class="g">Lv</h3> Livermorio <br> (293)
+                    </div>
+                    <div id="g13" class="gris" onclick="Ele117()">
+                        117<br> <h3 class="g">Ts</h3> Teneso <br> (294)
+                    </div>
+                    <div id="g14" class="gris" onclick="Ele118()">
+                        118<br> <h3 class="g">Og</h3> Oganesón <br> (294)
+                    </div>
+                </div>
+
+            <!--
+                <div class="boxtab" >
+                    <div class="transp2">
+                        
+                    </div>
+                    <div id="Az2" class="Az">
+                        
+                    </div>
+                    <div class="transp15">
+                        
+                    </div>
+                </div>
+            -->
+
+                <!--fila 9-->
+                <div class="boxtab" >
+                    <div class="transp2">
+                        
+                    </div>
+                    <div id="Az3" class="Az">
+                        <br> <br> 6 <br> <br>
+                    </div>
+                    <div id="b60" class="cafe" onclick="Ele57()">
+                        57<br> <h3 class="b">La</h3> Lantano <br> 138,91
+                    </div>
+                    <div id="b61" class="cafe" onclick="Ele58()">
+                        58<br> <h3 class="b">Ce</h3> Cerio <br> 140,12
+                    </div>
+                    <div id="b62" class="cafe" onclick="Ele59()">
+                        59<br> <h3 class="b">Pr</h3>Praseodimio<br>140,91
+                    </div>
+                    <div id="b63" class="cafe" onclick="Ele60()">
+                        60<br> <h3 class="b">Nd</h3> Neodimio <br> 144,24
+                    </div>
+                    <div id="b64" class="cafe" onclick="Ele61()">
+                        61<br> <h3 class="b">Pm</h3> Prometio <br> (145)
+                    </div>
+                    <div id="b65" class="cafe" onclick="Ele62()">
+                        62<br> <h3 class="b">Sm</h3> Samario <br> 150,36
+                    </div>
+                    <div id="b66" class="cafe" onclick="Ele63()">
+                        63<br> <h3 class="b">Eu</h3> Europio <br> 151,96
+                    </div>
+                    <div id="b67" class="cafe" onclick="Ele64()">
+                        64<br> <h3 class="b">Gd</h3> Gadolinio <br> 157,25
+                    </div>
+                    <div id="b68" class="cafe" onclick="Ele65()">
+                        65<br> <h3 class="b">Tb</h3> Terbio <br> 158,93
+                    </div>
+                    <div id="b69" class="cafe" onclick="Ele66()">
+                        66<br> <h3 class="b">Dy</h3> Disprosio <br> 162,50
+                    </div>
+                    <div id="b70" class="cafe" onclick="Ele67()">
+                        67<br> <h3 class="b">Ho</h3> Holmio <br> 164,93
+                    </div>
+                    <div id="b71" class="cafe" onclick="Ele68()">
+                        68<br> <h3 class="b">Er</h3> Erbio <br> 167,26
+                    </div>
+                    <div id="b72" class="cafe" onclick="Ele69()">
+                        69<br> <h3 class="b">Tm</h3> Tulio <br> 168,93
+                    </div>
+                    <div id="b73" class="cafe" onclick="Ele70()">
+                        70<br> <h3 class="b">Yb</h3> Iterbio <br> 173,05
+                    </div>
+                    <div id="b74" class="cafe" onclick="Ele71()">
+                        71<br> <h3 class="b">Lu</h3> Lutecio <br> 174,97
+                    </div>
+                </div>
+
+                <!--fila 10-->
+                <div class="boxtab" >
+                    <div class="transp2">
+                        
+                    </div>
+                    <div id="Az4" class="Az">
+                        <br> <br> 7 <br> <br>
+                    </div>
+                    <div id="b75" class="rosa" onclick="Ele89()">
+                        89<br> <h3 class="b">Ac</h3> Actinio <br> (227)
+                    </div>
+                    <div id="b76" class="rosa" onclick="Ele90()">
+                        90<br> <h3 class="b">Th</h3> Torio <br> 232,04
+                    </div>
+                    <div id="b77" class="rosa" onclick="Ele91()">
+                        91<br> <h3 class="b">Pa</h3> Protactinio <br> 231,04
+                    </div>
+                    <div id="b78" class="rosa" onclick="Ele92()">
+                        92<br> <h3 class="b">U</h3> Uranio <br> 238,03
+                    </div>
+                    <div id="b79" class="rosa" onclick="Ele93()">
+                        93<br> <h3 class="b">Np</h3> Neptunio <br> (237)
+                    </div>
+                    <div id="b80" class="rosa" onclick="Ele94()">
+                        94<br> <h3 class="b">Pu</h3> Plutonio <br> (244)
+                    </div>
+                    <div id="b81" class="rosa" onclick="Ele95()">
+                        95<br> <h3 class="b">Am</h3> Americio <br> (243)
+                    </div>
+                    <div id="b82" class="rosa" onclick="Ele96()">
+                        96<br> <h3 class="b">Cm</h3> Curio <br> (247)
+                    </div>
+                    <div id="b83" class="rosa" onclick="Ele97()">
+                        97<br> <h3 class="b">Bk</h3> Berkelio <br> (247)
+                    </div>
+                    <div id="b84" class="rosa" onclick="Ele98()">
+                        98<br> <h3 class="b">Cf</h3> Californio <br> (251)
+                    </div>
+                    <div id="b85" class="rosa" onclick="Ele99()">
+                        99<br> <h3 class="b">Es</h3> Einstenio <br> (252)
+                    </div>
+                    <div id="b86" class="rosa" onclick="Ele100()">
+                        100<br> <h3 class="b">Fm</h3> Fermio <br> (257)
+                    </div>
+                    <div id="b87" class="rosa" onclick="Ele101()">
+                        101<br> <h3 class="b">Md</h3>Mandelevio <br> (258)
+                    </div>
+                    <div id="b88" class="rosa" onclick="Ele102()">
+                        102<br> <h3 class="b">No</h3> Nobelio <br> (259)
+                    </div>
+                    <div id="b89" class="rosa" onclick="Ele103()">
+                        103<br> <h3 class="b">Lr</h3>Lawrencio <br> (266)
+                    </div>
+                </div>
+            </div>
+        </center>
+
+        <!--parte dinamica-->
+    <div class="conta-all">
+        <h2 id="Titulo">Seleccione cualquier elemento de la tabla Periodica</h2>
+        <div id="Box" class="box-elem">
+            <h2 id="T6">1</h2>
+            <br>
+            <br>
+            <h1 id="T7">H</h1>
+            <br>
+            <br>
+            <h2 id="T8">Hidrógeno</h2>
+            <br>
+            <br>
+            <h2 id="T9">1,008</h2>
+        </div>
+        
+        <div id="Box2" class="box-elem2">
+            <img class="box-img" src="img/t1.jpg" id="imagen">
+        </div>
+        
+        <br>
+        <h1 class="Titu">Historia del elemento</h1>
+        <br>
+        <p class="T-P" id="T1">Historia</p>
+        <br>
+        <h1 class="Titu">Quien lo descubrio?</h1>
+        <br>
+        <p class="T-P" id="T2">Descubrimiento</p>
+        <br>
+        <h1 class="Titu">Composicion del elemento</h1>
+        <br>
+        <p  class="T-P" id="T5">Composicion</p>
+    </div>
+
+    <!--boton hacia arriba-->
+
+    <center>
+        <div onclick="scrollUp()" id="button-up">
+            <img src="Img/fa.png">
+        </div>
+    </center>
+
+            <!--pie de pagina-->
+        <div>
+            <footer class="pieP">
+                <div class="alta">
+                    <p>Turno: Matutino</p>
+                    <p>Grupo: 6to Semestre.</p>
+                    <p>Nivel: Preparatoria</p>
+                </div>
+                <hr>
+                <div class="baja">
+                    <p>Jorge Gutierrez</p>
+                    <p>Juan Rubio</p>
+                    <p>Emiliano Chavarria</p>
+                </div>
+            </footer>    
+        </div>
+
+</body>
+</html>
